@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+</head>
+<body>
+
+    <h2>Binance Dapp!</h2>
+    <span id="network"></span> </br>
+    <span id="metamaskConnection"></span> </br>
+    <span id="lock"></span></br>
+    <span id="account"></span></br>
+    <span id="getBalance"></span>
+    <h1>Read Functions:</h1>
+    
+<div>
+    <h1>BUSDtobnb</h1>
+    <button onclick="BUSDtobnb()">BUSD TO BNB</button>
+    <h3 id="BUSDtobnbhash"></h3>
+</div>
+<div>
+    <h1>BnbtoBusd</h1>
+    <button onclick="BnbtoBusd()">BNB TO BUSD</button>
+    <h3 id="BnbtoBusdhash"></h3>
+</div>
+<div>
+    <h1>bnbbusdlp</h1>
+    <button onclick="bnbbusdlp()">lp address</button>
+    <h3 id="bnbbusdlphash"></h3>
+</div>
+<div>
+    <h1>BUSD</h1>
+    <button onclick="busd()">BUSD address</button>
+    <h3 id="busdhash"></h3>
+</div>
+<div>
+    <h1>owner</h1>
+    <button onclick="owner()"> owner address</button>
+    <h3 id="ownerhash"></h3>
+</div>
+
+<div>
+    <h1>token</h1>
+    <button onclick="token()">token address</button>
+    <h3 id="tokenhash"></h3>
+</div>
+
+<div>
+    <h1>usdt</h1>
+    <button onclick="usdt()">usdt address</button>
+    <h3 id="usdthash"></h3>
+</div>
+<div>
+    <h1>tokenperdollar</h1>
+    <button onclick="tokenperdollar()">token per dollar</button>
+    <h3 id="tokenperdollarhash"></h3>
+</div>
+<div>
+    <h1>calculateBUSD</h1>
+    <input type="number" id="calculateBUSD" placeholder=" value..."><br>
+    <button onclick="calculateBUSD()">calculate BUSD</button><br>
+    <h3 id="calculateBUSDhash"></h3>
+</div>
+<h1>Write Function</h1>
+<div>
+    <h1>renounceOwnership</h1>
+    <button onclick="renounceOwnership()">Renounce Ownership</button>
+    <h3 id="renounceOwnershiphash"></h3>
+</div>
+<div>
+    <h1>setAddresses</h1>
+    <input type="text" id="tokenAddress" placeholder="  token Address..."><br>
+    <button onclick="setAddresses()">Set token Addresses</button>
+    <h3 id="setAddresseshash"></h3>
+</div>
+<div>
+    <h1>settokenperdollar</h1>
+    <input type="number" id="amount" placeholder="  token amount..."><br>
+    <button onclick="settokenperdollar()">set token per dollar</button>
+    <h3 id="settokenperdollarhash"></h3>
+</div>
+<div>
+    <h1>swapBNBTotoken</h1>
+    <input type="number" id="amount" placeholder="  payable amount..."><br>
+    <button onclick="swapBNBTotoken()">swap BNB To token</button>
+    <h3 id="swapBNBTotokenhash"></h3>
+</div>
+<div>
+    <h1>swapUSDTTotoken</h1>
+    <input type="number" id="amount22" placeholder="   amount..."><br>
+    <button onclick="swapUSDTTotoken()">swap USDT To token</button>
+    <h3 id="swapUSDTTotoken"></h3>
+</div>
+<div>
+    <h1>swapBUSDTotoken</h1>
+    <input type="number" id="amount1" placeholder="   amount..."><br>
+    <button onclick="swapBUSDTotoken()">swap BUSD To token</button>
+    <h3 id="swapBUSDTotokenhash"></h3>
+</div>
+
+<div>
+    <h1>transferOwnership</h1>
+    <input type="text" id="newownerAddress" placeholder="  token Address..."><br>
+    <button onclick="transferOwnership()"> transfer Ownership</button>
+    <h3 id="transferOwnershiphash"></h3>
+</div>
+<h1>withdraw</h1>
+<input type="text" id="tokenaddr" placeholder="  token Address..."><br>
+
+<input type="number" id="Amount1" placeholder=" Amount..."><br>
+<button onclick="withdraw()">withdraw</button>
+<h3 id="withdrawhash"></h3>
+</div>
+<h1>withdrawbnb</h1>
+<input type="number" id="Amount123" placeholder=" Amount..."><br>
+<button onclick="withdrawbnb()">withdrawbnb</button>
+<h3 id="withdrawbnbhash"></h3>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
